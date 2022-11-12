@@ -1,7 +1,9 @@
+import App from "../App/App";
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world! from saurabh
-    </h1>
+    <div className="">
+      <App />
+    </div>
   )
 }
